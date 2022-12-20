@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Apfel Fett;
+  src: url(ApfelGrotezk-Fett.otf);
+}
+
+body {
+  background-color: #FFC046;
+}
+
+.bio {
+  font-size: 32px;
+}
+
+.section--hero .bio {
+  padding-bottom: 32px;
+}
+
+.page-limiter {
+  padding: 0 10vw
+}
+
+.section--hero {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.hero__logo {
+  width: 320px;
+}
+
+.button {
+  padding: 24px 48px;
+  font-size: 32px;
+  font-family: "Apfel Fett", sans-serif;
+  cursor: pointer;
+}
+
+.button--primary {
+  background-color: transparent;
+  border-radius: 50px;
+  border: solid 4px #121212;
+  font-weight: bold;
+}
+
+.button--primary:hover {
+  background-color: #121212;
+  border-radius: 50px;
+  border: solid 4px #121212;
+  color: #FFC046;
+}
